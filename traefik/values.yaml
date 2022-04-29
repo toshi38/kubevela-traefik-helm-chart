@@ -89,6 +89,8 @@ experimental:
     enabled: false
   kubernetesGateway:
     enabled: false
+    # All options: "All", "Selector" "Same"
+    namespacePolicy: "All"
     # certificate:
     #   group: "core"
     #   kind: "Secret"
