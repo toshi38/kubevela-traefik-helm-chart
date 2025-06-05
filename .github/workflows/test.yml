@@ -11,7 +11,7 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-20.04
-    if: github.repository == 'traefik/traefik-helm-chart'
+    # if: github.repository == 'traefik/traefik-helm-chart'
     env:
       TMPDIR: /tmp
       ARCH: amd64
